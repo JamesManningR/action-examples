@@ -1,0 +1,10 @@
+name: Manually Triggered
+
+on: workflow_dispatch
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm Triggered
+        run: echo Initiated Manually
