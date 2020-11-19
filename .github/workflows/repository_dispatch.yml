@@ -2,7 +2,7 @@ name: Repository Dispatch Event
 
 on:
   repository_dispatch:
-    types: an_event
+    types: [an_event]
 
 jobs:
   echo:
