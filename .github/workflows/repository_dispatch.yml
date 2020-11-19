@@ -1,0 +1,12 @@
+name: Repository Dispatch Event
+
+on:
+  repository_dispatch:
+    types: an_event
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Something
+        run: echo The Rest API told me to do it!

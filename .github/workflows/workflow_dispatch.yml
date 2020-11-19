@@ -1,4 +1,4 @@
-name: Manually Triggered
+name: Workflow Dispatch Event
 
 on: workflow_dispatch
 
